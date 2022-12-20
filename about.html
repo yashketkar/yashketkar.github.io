@@ -1,0 +1,77 @@
+---
+title: About
+layout: default
+---
+
+<div class="container -spaced -alternate2">
+  <div class="recipe__title">
+    <h1>Hello</h1>
+    <p class="lede">
+      My name is Yash Ketkar. I'm a software engineer living in Seattle, WA.
+    </p>
+    <p>
+      I'm also a interested in designing scalable systems, user experiences &amp; a dabbler in graphic design. Hiking and outdoors enthusiast.
+    </p>
+  </div>
+</div>
+
+<div class="container recipe">
+  <div class="">
+  </div>
+  <div class="recipe__title">
+    <h2>Work</h2>
+
+    {% include resumeitem.html
+      date = "March 2021&mdash;Present"
+      role = "Software Development Engineer II"
+      employer = "<a href='https://www.amazon.com'>Amazon.com Inc.</a>"
+      description = "<p><b>Prime Video [Kotlin, Java, GraphQL]:</b> Working on robust backend Tier-1 services to enable content discovery and title metadata aggregation in Prime Video storefront systems.</p>"
+    %}
+    {% include resumeitem.html
+      date = "April 2019&mdash;March 2021"
+      role = "Software Development Engineer I"
+      employer = "<a href='https://www.amazon.com'>Amazon.com Inc.</a>"
+      description = "<p><b>Prime Video [Kotlin, Java, GraphQL]:</b> Working on robust backend Tier-1 services to enable content discovery and title metadata aggregation in Prime Video storefront systems.</p>"
+    %}
+    {% include resumeitem.html
+      date = "June 2017&mdash;April 2019"
+      role = "Software Engineer"
+      employer = "<a href='https://www.cerner.com'>Cerner Corporation</a>"
+      description = "<p><b>Consumer Backend Services [Ruby on Rails, RSpec, MySQL]:</b> Developed microservices for managing information of health organization's consumers about notifications and their preferences for consumption in web and mobile applications.</p>
+      <p><b>HealtheLife [Python, Django, Oracle]:</b> Wrote several key features in Secure Messaging and Notifications management in HealtheLife, a web-based patient portal solution that enables interaction and engagement between health organizations and their consumers.</p>"
+    %}
+    {% include resumeitem.html
+      date = "Aug 2016&mdash;May 2017"
+      role = "Web Developer"
+      employer = "<a href='https://kelley.iu.edu'>Kelley School of Business</a>"
+      description = "<p><b>Kelley School of Business Website [PHP, JS, HTML 5, CSS]:</b> Performed responsive web development in multiple web environments and complex analysis of legacy code to build updated web content using modern standards. Participated in Agile Software Development Life Cycle (SDLC) and communicated with technical partners as well as business stakeholders.</p>"
+    %}
+    {% include resumeitem.html
+      date = "May 2016&mdash;Aug 2016"
+      role = "Software Engineer Intern (Android)"
+      employer = "<a href='https://telenotes.com'>Telenotes</a>"
+      description = "<p><b>Telenotes CRM Android application [Android, Java, XML]:</b> Collaborated with cross-functional teams to define, design and build applications for the Android platform. Unit-tested code for robustness, including edge cases, usability, and general reliability. Worked with external data sources and REST APIs, fixed bugs and improved performance.</p>"
+    %}
+  </div>
+</div>
+<div class="container recipe">
+  <div class=" ">
+
+  </div>
+  <div class="recipe__title">
+    <h2>Education</h2>
+
+    {% include resumeitem.html
+      date = "2015&mdash;2017"
+      role = "Master of Science&mdash;Computer Science"
+      employer = "<a href='https://luddy.indiana.edu/index.html'>Indiana University Bloomington</a>"
+      description = "Bloomington, IN"
+    %}
+    {% include resumeitem.html
+      date = "2011&mdash;2015"
+      role = "Bachelor of Engineering&mdash;IT"
+      employer = "<a href='https://mu.ac.in'>University of Mumbai</a>"
+      description = "Mumbai, India"
+    %}
+  </div>
+</div>
